@@ -1,0 +1,382 @@
+<div id="app">
+  <h2>1. Grid basics</h2>
+  <div class="container1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+    <div class="item">13</div>
+    <div class="item">14</div>
+    <div class="item">15</div>
+    <div class="item">16</div>
+    <div class="item">17</div>
+    <div class="item">18</div>
+    <div class="item">19</div>
+    <div class="item">20</div>
+  </div>
+</div>
+
+<div id="app2">
+  <h2>2. Grid-auto-flow column like flex-direction: column</h2>  
+  <div class="container2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+  </div>
+</div>
+
+<div id="app3">
+  <h2>3. Fractional units like flex-grow</h2>
+  <div class="container3">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+    <div class="item">11</div>
+    <div class="item">12</div>
+  </div>
+</div>
+
+<div id="app4">
+  <h2>4. Auto vs 1fr</h2>
+  <div class="container4">
+    <div class="item item-min-width">1</div>
+    <div class="item item-min-width">2</div>
+    <div class="item item-min-width">3 longer label name</div>
+    <div class="item item-min-width">4</div>
+    <div class="item item-min-width">5</div>
+    <div class="item item-min-width">6</div>
+    <div class="item item-min-width">7</div>
+    <div class="item item-min-width">8</div>
+  </div>
+</div>
+
+<div id="app5">
+	<h2>5. Repeat function and grid span</h2>
+		<div class="container5">
+			<div class="item item1">1</div>
+			<div class="item item2">2</div>
+			<div class="item item3">3</div>
+			<div class="item item4">4</div>
+			<div class="item item5">5</div>
+			<div class="item item6">6</div>
+			<div class="item item7">7</div>
+			<div class="item item8">8</div>
+			<div class="item item9">9</div>
+			<div class="item item10">10</div>
+			<div class="item item11">11</div>
+			<div class="item item12">12</div>
+			<div class="item item13">13</div>
+			<div class="item item14">14</div>
+			<div class="item item15">15</div>
+			<div class="item item16">16</div>
+			<div class="item item17">17</div>
+			<div class="item item18">18</div>
+			<div class="item item19">19</div>
+			<div class="item item20">20</div>
+			<div class="item item21">21</div>
+			<div class="item item22">22</div>
+			<div class="item item23">23</div>
+			<div class="item item24">24</div>
+			<div class="item item25">25</div>
+			<div class="item item26">26</div>
+			<div class="item item27">27</div>
+			<div class="item item28">28</div>
+			<div class="item item29">29</div>
+			<div class="item item30">30</div>
+		</div>
+</div>
+
+<div id="app6">
+	<h2>6. Placing Grid items (grid-column: 1 / -1)</h2>
+	<div class="container6">
+		<div class="item item2_1">1</div>
+		<div class="item item2_2">2</div>
+		<div class="item item2_3">3333333</div>
+		<div class="item item2_4">44444</div>
+		<div class="item item2_5">5</div>
+		<div class="item item2_6">6</div>
+		<div class="item item2_7">7</div>
+	</div>
+</div>
+
+<div id="app7">
+	<h2>Auto-fill & auto-fit</h2>
+	<div class="container7">
+		<div class="item item3_1">1</div>
+		<div class="item item3_2">2</div>
+		<div class="item item3_3">3</div>
+		<div class="item item3_4">4</div>
+	</div>
+</div>
+
+<div id="app8">
+	<h2>8. Auto-fit and minmax()</h2>
+</div>
+
+<div id="app9">
+	<h2>9. Simple HTML template</h2>
+	<div class="container8">
+		<header class="section">header</header>
+		<div class="section sidebar">sidebar</div>
+		<div class="section main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas odio fuga eaque hic porro perspiciatis at minus et eius cumque dicta nemo, in debitis doloremque quos itaque sint provident voluptatibus!</div>
+		<div class="section sidebar">sidebar</div>
+		<footer class="section">footer</footer>
+	</div>
+</div>
+
+<!-- inline CSS styles -->
+
+<style>
+
+body {
+  margin:0;padding:0;
+}
+
+h1, h2 {
+ font-family: Lato;
+ color: blach;
+
+ /* text-transform: uppercase; */
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border: 3px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(218,165,32);
+}
+
+div[id^="app"] {
+  padding: 10px 20px 60px 20px;
+  margin: 0;
+}
+
+#app {
+  background-color: lightgrey;
+}
+
+#app2 {
+  background-color: #C76057;
+}
+
+#app3 {
+  background-color: #264273;
+}
+
+#app4 {
+  background-color: #A3E0BC;
+}
+
+#app5 {
+  background-color: #286077;
+}
+
+#app6 {
+  background-color: #E6D6B3;
+}
+
+#app7 {
+  background-color: #A14236;  
+}
+
+#app9 {
+  background: #F5E8E0;
+}
+
+/******** 1. Grid basics ********/
+
+.container1 {
+  display: grid;  
+  grid-template-columns: 2rem 170px 70px auto; /* we define first 3 cols, 4th fits available space */
+  grid-template-rows: 3rem 3rem 3rem; /* we define first 3 rows only */
+  grid-auto-rows: 250px 30px; /* add styles to rows which are not styled in 'grid-template-rows'  */
+  grid-gap: 5px 12px;
+}
+
+/******** 2. Grid-auto-flow column like flex-direction: column ********/
+
+.container2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: column; /* the same as flexbox'flex-direction: column!!!!!! */
+}
+
+/******** 3. Fractional units like flex-grow ********/
+
+.container3 {
+  display: grid;
+  grid-gap: 10px; 
+  grid-template-columns: 400px 1fr 4fr; 
+  grid-template-rows: 90px 1fr 3fr 2fr;
+}
+
+/******** 4. 1fr and auto difference???  ********/
+
+.container4 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto 1fr; /* auto referrs to max size of the content */
+}
+
+.item-min-width {
+  min-width: 50px;
+}
+
+/******** 5. Repeat function and grid span ********/
+
+.container5 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr); /* we are not really using repeat here... */
+}
+.item10 {
+  background: #A1365F;
+
+  /* although we put fixed width to one element, it changes whole column */
+  width: 350px; 
+}
+.item11 {
+  background: #121708;
+
+  /* span 3 means that element takes 3 'grid spaces' */
+  grid-column: span 3; 
+}
+.item18 {
+  background: #C45D4F;
+
+  /* 'span 4' means that element takes 4 'grid items', 
+  * but it leaves empty gap because...
+  * it cannot fit initial row
+  */
+  grid-column: span 4; 
+}
+
+.item25 {
+  background: #1D3F58;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/******** 6. Placing Grid items (grid-column: 1 / -1) ********/
+
+.container6 {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto 1fr;
+  
+  /* this is needed for item2_5 */
+  grid-template-rows: repeat(8, 1fr);
+  border: 3px solid #121F0A;
+}
+
+.item2_1 {
+  background: #C67F53;
+  color: black;
+  /* 
+  * we can use 'span 2'
+  grid-column: 1 / span 2;   
+  * but in place of 'span 2' we can use '-1'...
+  * ... and this will be the same as width 100% (this will span element to entire grid)
+  * good when you don't know how many columns you will have
+  */
+  grid-column: 1 / -1;   
+}
+
+.item2_5 {
+  
+  /* 'span 2' says that element will cover 2 'grid spaces' */
+  grid-column: span 2; 
+  
+  /* '3 / 6' means that element starts after 3rd 'grid line'
+  * and ends before 6rd 'grid line'
+  */
+  grid-row: 3 / 6; 
+  /* in this example this is the same as:... */
+  /* grid-row: 3 / span 3; */
+}
+
+/******** 7. Auto-fill and auto fit ********/
+
+/* 
+* When you don't have enought items to fill the entire grid...
+* ... you can see the difference
+*
+* Auto-fill - chop the grid to as many fits the grids as possible 
+* Auto-fit - ends the grid when items finish
+*/
+
+/* Nice attempt of making a sidebar but... it's not always at the end of the grid. */
+.container7 {
+  display: grid;
+  grid-gap: 20px;
+  border: 1px solid blue;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, 100px);
+}
+.item3_4 {
+  background: gold;
+  grid-column: auto / -1;
+  /* the same as: */
+  /* grid-column-end: -1; */
+}
+
+/******** 8. Auto-fit and minmax() ********/
+
+/******** 9. Simple HTML template ********/
+.section {
+  background: #9CD5DE;
+  margin: 10px;
+  font-weight: bold;
+
+
+  /* for making the text centered inside each section */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.section:not(.main) {
+    text-transform: uppercase;
+}
+
+
+.container8 {
+  display: grid;
+  border: 1px solid blue;
+  grid-template-columns: 120px auto 110px;
+  grid-template-rows: 2fr 300px 1fr;
+  grid-template-areas: 
+  "header"
+  "sidebar1 content sidebar2"
+  "footer"
+}
+
+header {
+  grid-column: 1 / -1;
+}
+footer {
+  grid-column: 1 / -1;
+}
+
+</style>
